@@ -1,49 +1,207 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Profile</title>
+
+    <title>Akidong Amaku | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-     <header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#goal">Goal</a>
-        <a href="#contact">Contact</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">AA</div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
     </nav>
 
-    <h1>Akidong Amaku</h1>
-    <p>Student | Future Software Developer</p>
-</header>
-    <main>
-        <section class="about" id="about">
-            <h2>About Me</h2>
+
+    <!-- Home -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>
+                Hi, I'm <span>Akidong Amaku</span>
+            </h1>
+
+            <h2>Future Software Developer</h2>
+
             <p>
-                Hello! My name is Akidong Amaku. I am a student interested
-                in technology, software development and learning new skills.
+                I am a student passionate about technology,
+                programming and building useful digital solutions.
             </p>
-        </section>
 
-         <section class="skills" id="skills">
-        </section>
+            <a href="#contact" class="button">Contact Me</a>
+        </div>
 
-         <section class="goal" id="goal">
-         </section>
-         <a href="#contact" class="button">Contact Me</a>
-         <section id="contact">
-            <img src="images/profile.jpg" alt="Profile photo" class="profile-image">
-    <h2>Contact Me</h2>
-    <p>Email: akidongekuamaku@gmil.com</p>
-</section>
-    </main>
+        <div class="hero-card">
+            <div class="circle">AA</div>
+            <h3>Akidong Amaku</h3>
+            <p>Student & Developer</p>
+        </div>
 
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+
+            <div class="about-card">
+                <h3>Who I Am</h3>
+
+                <p>
+                    My name is Akidong Amaku. I am a student interested
+                    in software development, web development and
+                    learning new technologies.
+                </p>
+
+                <p>
+                    I enjoy learning how websites and software are
+                    created and I am working toward becoming a
+                    successful software developer.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>My Goal</h3>
+
+                <p>
+                    My goal is to develop strong programming skills,
+                    create useful applications and build a successful
+                    career in technology.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section skills-section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Creating the structure of webpages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Designing beautiful and responsive webpages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Java</h3>
+                <p>Learning programming and application development.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Git & GitHub</h3>
+                <p>Managing projects and tracking changes.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects">
+
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A personal portfolio website created using
+                    HTML and CSS.
+                </p>
+
+                <span>HTML • CSS</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Java ATM System</h3>
+
+                <p>
+                    A Java GUI project that simulates basic
+                    ATM operations.
+                </p>
+
+                <span>Java • GUI</span>
+            </div>
+
+            <div class="project-card">
+                <h3>GitHub Project</h3>
+
+                <p>
+                    A webpage developed with AI and managed using
+                    Git and GitHub.
+                </p>
+
+                <span>Git • GitHub • AI</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <p>
+            I would love to connect with you.
+        </p>
+
+        <div class="contact-info">
+            <p><strong>Name:</strong> Akidong Amaku</p>
+            <p><strong>Email:</strong> akidong@example.com</p>
+            <p><strong>Location:</strong> Nigeria</p>
+        </div>
+
+        <a href="mailto:akidong@example.com" class="button">
+            Send Me an Email
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 My Personal Profile</p>
+
+        <p>
+            © 2026 Akidong Amaku. All Rights Reserved.
+        </p>
+
+        <p>
+            Built with HTML, CSS, Git, GitHub and AI.
+        </p>
+
     </footer>
 
 </body>
