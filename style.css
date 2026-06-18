@@ -55,3 +55,17 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
